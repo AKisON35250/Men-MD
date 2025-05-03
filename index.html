@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>MD Menü</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #8B0000;
+      padding: 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .menu-item {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+    .menu-item:hover {
+      transform: scale(1.05);
+      background-color: #3a3a3a;
+    }
+    .menu-item h3 {
+      margin-bottom: 10px;
+      color: #ff4d4d;
+    }
+    .footer {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>📘 Medical Department Menü</h1>
+  </div>
+
+  <div class="menu">
+    <div class="menu-item"><h3>🏥 Start</h3><p>Übersicht & Infos</p></div>
+    <a href="https://docs.google.com/spreadsheets/d/1nycXjJ76qd7yx41VcB9tPxjborMfCODM9LvLkfbnrA0/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="menu-item">
+        <h3>👨‍⚕️ Mitarbeiter</h3>
+        <p>Alle aktiven Mitglieder des MD</p>
+      </div>
+    </a>    
+    <div class="menu-item"><h3>📄 Patientenakten</h3><p>Zugriff auf Daten</p></div>
+    <div class="menu-item"><h3>📋 Dienstdokumentation</h3><p>Berichte & Einsätze</p></div>
+    <a href="https://docs.google.com/document/d/1o19XWlJC2eHLirPM9_isW6hf2Of1WJPU5BvvVi9AYHE/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="menu-item">
+        <h3>📋 Sanktionskatalog</h3>
+        <p>Alle internen Sanktionen auf einen Blick</p>
+      </div>
+    </a>
+    <a href="https://docs.google.com/spreadsheets/d/1gKwsT957KfqNC4ZCm2LAv8J-i3jARE68b2IHsiX10Ys/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="menu-item">
+        <h3>👥 Personalstatus</h3>
+        <p>Wer ist aktuell im Dienst?</p>
+      </div>
+    </a>
+        <div class="menu-item"><h3>🎓 Ausbildung & Ränge</h3><p>Karriere & Lerninhalte</p></div>
+    <div class="menu-item"><h3>📂 Formulare</h3><p>Anträge & Bewerbungen</p></div>
+    <div class="menu-item"><h3>⚙️ Verwaltung</h3><p>Leitung & Struktur</p></div>
+    <div class="menu-item"><h3>📢 News</h3><p>Neuigkeiten & Updates</p></div>
+  </div>
+
+  <div class="footer">
+    © 2025 Medical Department RP | Erstellt von AKisON (Alexander K.)
+  </div>
+
+</body>
+</html>
