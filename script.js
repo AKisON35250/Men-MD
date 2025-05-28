@@ -11,7 +11,7 @@ function startDienst() {
   document.getElementById("dauer").innerText = "";
 
   // Google Sheet speichern
-  fetch("https://script.google.com/macros/s/AKfycbxdv0CuwzeIBOlfwjnO4nOWFcTrW7Sl5_U-mPfEUO4yobpS12J-UK3wzawdz3hXWUdnww/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbynz8eHMH3Z8-2mZPUgAAPHDk86i7QRexBzU4yk64B2/dev", {
     method: "POST",
     body: new URLSearchParams({
       name: name,
@@ -34,7 +34,7 @@ function endDienst() {
   document.getElementById("dauer").innerText = `⏱️ Dauer: ${dauer} Stunden`;
 
   // Google Sheet speichern
-  fetch("https://script.google.com/macros/s/AKfycbxdv0CuwzeIBOlfwjnO4nOWFcTrW7Sl5_U-mPfEUO4yobpS12J-UK3wzawdz3hXWUdnww/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbynz8eHMH3Z8-2mZPUgAAPHDk86i7QRexBzU4yk64B2/dev", {
     method: "POST",
     body: new URLSearchParams({
       name: name,
